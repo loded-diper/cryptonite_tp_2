@@ -4,7 +4,7 @@
 | 🏆 **Done**          | 🔄 **Doing**          | 💤 **Haven't Started**                  |
 |----------------------|-----------------------|-----------------------------------------|
 |                      |                       | **Reverse Engineering**                |
-|                      |                       | - 🧩 GDB baby step 1                    |
+|                      |- 🧩 GDB baby step 1   |                                         |
 |                      |                       | - 🧩 ARMsembly 1                        |
 |                      |                       | - 🧩 Vault door 3                       |
 |                      |                       |                                         |
@@ -23,8 +23,8 @@
 |                      |                       | - 🔐 Custom encryption                 |
 |                      |                       | - 🔐 miniRSA                           |
 |                      |                       |                                         |
-|                      |                       | **Binary Exploitation**                |
-|                      |                       | - 💣 buffer overflow 0                 |
-|                      |                       | - 💣 format string 0                   |
-|                      |                       | - 💣 flag leak                         |
+|                      |                       | **Binary Exploitation**                 |
+|                      |- 💣 buffer overflow 0 |                                        |
+|                      |- 💣 format string 0   |                                        |
+|                      |- 💣 flag leak         |                                        |
 
