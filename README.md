@@ -9,9 +9,9 @@
 |                      |                       | - 🧩 Vault door 3                       |
 |                      |                       |                                         |
 |                      |                       | **Forensics**                          |
-|                      |                       | - 🔍 trivial flag transfer protocol     |
-|                      |                       | - 🔍 tunn3l v1s10n                     |
-|                      |                       | - 🔍 m00nwalk                          |
+|                      |                       | - 🔍 trivial flag transfer protocol    |
+|- 🔍 tunn3l v1s10n    |                       |                    					 |
+|- 🔍 m00nwalk         |                       |                                         |
 |                      |                       |                                         |
 |                      |                       | **Web Exploitation**                   |
 |                      |                       | - 🌐 SOAP                              |
@@ -19,12 +19,12 @@
 |                      |                       | - 🌐 cookies                           |
 |                      |                       |                                         |
 |                      |                       | **Cryptography**                       |
-|                      |                       | - 🔐 C3                                |
+| - 🔐 C3              |                       |                                        |
 |                      |                       | - 🔐 Custom encryption                 |
 |                      |                       | - 🔐 miniRSA                           |
 |                      |                       |                                         |
 |                      |                       | **Binary Exploitation**                 |
-|                      |- 💣 buffer overflow 0 |                                        |
-|                      |- 💣 format string 0   |                                        |
+|- 💣 buffer overflow 0| 					   |                                        |
+|- 💣 format string 0  |                       |                                        |
 |                      |- 💣 flag leak         |                                        |
 

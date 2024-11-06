@@ -12,7 +12,7 @@ How you approached the challenge:
  - The file did open but only a fake flag was visible , which was `notaflag{sorry}`.
 ![fake flag](https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/not_a_flag.png)
  - So i tried to tweak it's width (which completely distorted the image) , then i tried to change it's height from `32 01` to `32 03` which finally gave me the full picture and the flag.
-![true flag](images/https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/full_flag.png)
+![true flag](https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/full_flag.png)
 What you learned through solving this challenge:
 1. A unique magic number is associated to every file type.
 
