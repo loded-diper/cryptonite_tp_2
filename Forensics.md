@@ -10,9 +10,9 @@ How you approached the challenge:
 - Then i checked the rest of the 14 byte header of bmp file but found nothing, so i moved on to check DIB header.
  - The size of a DIB header (for windows NT 5.0 , 98 or later) should be `124` bytes, but it showed `BA D0 00 00` as the size of the DIB header which in decimal is `53434` bytes , much larger. So i changed it to `7C 00 00 00` (124 in decimal).
  - The file did open but only a fake flag was visible , which was `notaflag{sorry}`.
-![fake flag](images/not_a_flag.png)
+![fake flag](https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/not_a_flag.png)
  - So i tried to tweak it's width (which completely distorted the image) , then i tried to change it's height from `32 01` to `32 03` which finally gave me the full picture and the flag.
-![true flag](images/full_flag.png)
+![true flag](images/https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/full_flag.png)
 What you learned through solving this challenge:
 1. A unique magic number is associated to every file type.
 
@@ -60,7 +60,7 @@ vishad@VISHAD:~$ sstv -d message.wav -o result.png
 [sstv] ...Done!
 ``` 
 This gave an image which contained the flag
-![result](images/result.png)
+![result](https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/result.png)
 
 What you learned through solving this challenge:
 1. Using SSTV transmission to transmit and receive static pictures via radio.

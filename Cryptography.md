@@ -45,7 +45,7 @@ for i in range(len(chars)):
         b += 1 / 1
 ```
 - here the comments suggest that the code is in Python 2.0 and we have to give self input to the program to find the flag, after a while i figured out that the self input is this code itself, on running this code with input the code itself on python 2 we got the flag.
-![final image](images/C3.png)
+![final image](https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/C3.png)
 
 What you learned through solving this challenge:
 1. Cryptography
