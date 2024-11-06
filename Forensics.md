@@ -6,7 +6,7 @@ How you approached the challenge:
 - We are given a file with no details about it's types , i tried to find the type of file using `cyberchef` and `file command` , but was unsuccessful.
 - Then I opened the file in a hex editor and tried to search it's beginning bytes to common magic numbers of files using `Gary Kessler's File Signatures Table`.
 - The first 2 bytes were `42 4D` which were the magic numbers of a bitmap file, so i tried to rename the file by appending `.bmp` extension after the file but it was not readable indicating that it was corrupted.
-![Renaming to .bmp](images/Renaming_to_bmp.png)
+![Renaming to .bmp](https://github.com/loded-diper/cryptonite_tp_2/blob/main/Images/Renaming_to_bmp.png)
 - Then i checked the rest of the 14 byte header of bmp file but found nothing, so i moved on to check DIB header.
  - The size of a DIB header (for windows NT 5.0 , 98 or later) should be `124` bytes, but it showed `BA D0 00 00` as the size of the DIB header which in decimal is `53434` bytes , much larger. So i changed it to `7C 00 00 00` (124 in decimal).
  - The file did open but only a fake flag was visible , which was `notaflag{sorry}`.
