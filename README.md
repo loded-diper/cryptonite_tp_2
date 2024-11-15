@@ -15,8 +15,8 @@
 |                      |                       |                                         |
 |                      |                       | **Web Exploitation**                   |
 |                      |                       | - 🌐 SOAP                              |
-|                      |                       | - 🌐 Forbidden Paths                   |
-|                      |                       | - 🌐 cookies                           |
+|- 🌐 Forbidden Paths  |                       |                   						 |
+|- 🌐 cookies		   |                       |                                		 |
 |                      |                       |                                         |
 |                      |                       | **Cryptography**                       |
 | - 🔐 C3              |                       |                                        |
