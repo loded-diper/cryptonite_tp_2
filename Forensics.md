@@ -1,3 +1,23 @@
+# Trivial Flag Transfer Protocol
+**flag:** `picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
+`
+- We are given a `.pcapng` file which i opened through wireshark to export the files shared over the network using the `TFTP` protocol as the name suggests.
+ - 6 files were shared over the `TFTP` protocol & i exported all, 3 were bitmap image files, 2 were text files & 1 was a `.deb` install package.
+ - On opening the text files, there were jumbled words indicating a substitution cipher which after hit & trial found out to be `ROT 13`
+ 
+- `instructions.txt` file read *TFTP DOESNT ENCRYPT OUR TRAFFIC SO WE MUST DISGUISE OUR FLAG TRANSFER. FIGURE OUT A WAY TO HIDE THE FLAG AND I WILL CHECK BACK FOR THE PLAN*
+- `plan.txt` read *I USED THE PROGRAM AND HID IT WITH - DUEDILIGENCE. CHECK OUT THE PHOTOS*
+- This indicated the `.deb` program was used to hide something in the photos, while trying to install the `.deb` package, it indicated `steghide`.
+- So i tried to extract any information from the images using steghide with the password `DUEDILLIGENCE` as it is explicitly mentioned.
+- And in image 3 the flag was extracted to `flag.txt` solving the problem.
+
+What you learned through solving this challenge:
+- Using Wireshark to extract files sent over network using some protocols.
+
+Other incorrect methods you tried
+- I tried to export the contents using `tshark` but it was only able to extract the text documents, not the `.bmp` or `.deb` file. 
+
+
 # tunn3l vision
 **Flag:**  `picoCTF{qu1t3_a_v13w_202}`
 
@@ -29,7 +49,7 @@ References
 - https://en.wikipedia.org/wiki/BMP_file_format
 - etc.
 
-# Challenge name
+# m00nwalk
 
   
 

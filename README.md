@@ -21,7 +21,7 @@
 |                      |                       | **Cryptography**                       |
 | - 🔐 C3              |                       |                                        |
 |                      |                       | - 🔐 Custom encryption                 |
-|                      |                       | - 🔐 miniRSA                           |
+| - 🔐 miniRSA         |                       |                                        |
 |                      |                       |                                         |
 |                      |                       | **Binary Exploitation**                 |
 |- 💣 buffer overflow 0| 					   |                                        |
