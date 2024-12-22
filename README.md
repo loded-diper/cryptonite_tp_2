@@ -1,30 +1,30 @@
 
 # 🚀 Challenge Progress Tracker
 
-| 🏆 **Done**          | 🔄 **Doing**          | 💤 **Haven't Started**                  |
+| 🏆 **Done**          | 🔄 **Doing**          | 💤 **Haven't Started**                 |
 |----------------------|-----------------------|-----------------------------------------|
-|                      |                       | **Reverse Engineering**                |
-|                      |- 🧩 GDB baby step 1   |                                         |
-|                      |                       | - 🧩 ARMsembly 1                        |
-|                      |                       | - 🧩 Vault door 3                       |
+|                      |                       | **Reverse Engineering**                 |
+|- 🧩 GDB baby step 1  |   					   |                                         |
+|- 🧩 ARMsembly 1      |                       |                                         |
+|- 🧩 Vault door 3     |                       |                                         |
 |                      |                       |                                         |
 |                      |                       | **Forensics**                          |
-|                      |                       | - 🔍 trivial flag transfer protocol    |
+|- 🔍 TFTP             |                       |     									|
 |- 🔍 tunn3l v1s10n    |                       |                    					 |
 |- 🔍 m00nwalk         |                       |                                         |
 |                      |                       |                                         |
 |                      |                       | **Web Exploitation**                   |
-|                      |                       | - 🌐 SOAP                              |
+|- 🌐 SOAP 			   |                       |                              			 |
 |- 🌐 Forbidden Paths  |                       |                   						 |
 |- 🌐 cookies		   |                       |                                		 |
 |                      |                       |                                         |
-|                      |                       | **Cryptography**                       |
+|                      |                       | **Cryptography**                        |
 | - 🔐 C3              |                       |                                        |
-|                      |                       | - 🔐 Custom encryption                 |
+|- 🔐 Custom encryption|                       |                  						 |
 | - 🔐 miniRSA         |                       |                                        |
 |                      |                       |                                         |
 |                      |                       | **Binary Exploitation**                 |
-|- 💣 buffer overflow 0| 					   |                                        |
+|- 💣 buffer overflow 0| 					   |                                         |
 |- 💣 format string 0  |                       |                                        |
-|                      |- 💣 flag leak         |                                        |
+|- 💣 flag leak        |         			   |                                         |
 
