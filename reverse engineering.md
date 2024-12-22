@@ -55,3 +55,26 @@ Other incorrect methods you tried:
 - basic knowledge about registers , EAX, AX etc..
 - syntax of assembly code, `mov $0x86342,%eax` means moving the the content `$0x86342` to `eax`
 
+
+# ARMssembly 1
+
+**Flag:**  `picoCTF{0000005a}`
+
+How you approached the challenge:
+
+- This ARM assembly program has two functions, `func` and `main` which takes an argument and prints either `You win` or `You lose`
+- The function `func` performs left shifts, divisions, and subtraction.  The result is compared to 0 in main.
+```
+ldr w0, [sp, 20] // Load 2  
+ldr w1, [sp, 16] // Load 68  
+lsl w0, w1, w0 // Perform 68 << 2  
+sdiv w0, w1, w0 // Perform integer division  
+sub w0, w1, w0 // Perform subtraction with user input
+```
+- left shift `68` 2 times gives `272`
+- dividing it by `3` gives `90`
+- subtracting `90` by the given argument should give `0` to print `You win`, so argument should be `90` which is `0000005a` in 32 bit padded hexadecimal format, hence the flag. 
+
+What you learned through solving this challenge:
+1. read and interpret ARM assembly program like `ls1` `sdiv`
+ s
